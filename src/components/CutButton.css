@@ -1,0 +1,32 @@
+/* src/components/CutButton.css */
+
+.cut-friendship {
+    margin: 20px;
+  }
+  
+  .cut-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cut-submit-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cut-submit-button:hover {
+    background-color: #c82333;
+  }
+  
+  .cut-submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
